@@ -40,7 +40,7 @@ button { font: inherit; }
 }
 .topbar-scrolled { background: rgba(247,248,251,.94); backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); }
 .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; }
-.brand-mark { width: 36px; height: 36px; border-radius: 10px; display: grid; place-items: center; background: var(--dark); color: white; font-family: 'Space Grotesk'; }
+.brand-mark { width: 44px; height: 36px; border-radius: 10px; display: grid; place-items: center; background: var(--dark); color: white;  font-family: 'Space Grotesk'; font-size: 14px;}
 .nav-links { display: flex; gap: 28px; font-size: 14px; font-weight: 600; color: #3d4657; }
 .nav-links a:hover { color: var(--accent); }
 .menu-button { display: none; border: 0; background: transparent; cursor: pointer; }

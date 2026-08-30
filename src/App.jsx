@@ -68,7 +68,7 @@ function App() {
     <div className="site-shell">
       <header className={`topbar ${scrolled ? 'topbar-scrolled' : ''}`}>
         <a className="brand" href="#home" onClick={closeMenu}>
-          <span className="brand-mark">PS</span>
+          <span className="brand-mark">APS</span>
           <span>Panneerselvam Arumugam</span>
         </a>
 
