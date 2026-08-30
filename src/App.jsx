@@ -69,7 +69,7 @@ function App() {
       <header className={`topbar ${scrolled ? 'topbar-scrolled' : ''}`}>
         <a className="brand" href="#home" onClick={closeMenu}>
           <span className="brand-mark">PS</span>
-          <span>Panneerselvam A</span>
+          <span>Panneerselvam Arumugam</span>
         </a>
 
         <button className="menu-button" onClick={() => setMenuOpen((v) => !v)} aria-label="Toggle navigation">
@@ -236,7 +236,7 @@ function App() {
       </main>
 
       <footer className="footer page-width">
-        <span>© 2026 Panneerselvam A</span>
+        <span>© 2026 Panneerselvam Arumugam</span>
         <span>Built with React + Vite</span>
       </footer>
     </div>
