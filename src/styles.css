@@ -38,6 +38,53 @@ button { font: inherit; }
   padding: 0 max(24px, calc((100vw - 1140px) / 2));
   transition: .25s ease;
 }
+.project-image-wrapper {
+  width: 100%;
+  height: 190px;
+  overflow: hidden;
+  border-radius: 16px;
+  margin-bottom: 22px;
+  background: #eef0f5;
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.35s ease;
+}
+
+.project-card:hover .project-image {
+  transform: scale(1.05);
+}
+@media (max-width: 768px) {
+
+  .profile-photo {
+    width: 145px;
+    height: 145px;
+  }
+
+  .project-image-wrapper {
+    height: 180px;
+  }
+
+}
+.profile-photo-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 22px;
+}
+
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
 .topbar-scrolled { background: rgba(247,248,251,.94); backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); }
 .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; }
 .brand-mark { width: 44px; height: 36px; border-radius: 10px; display: grid; place-items: center; background: var(--dark); color: white;  font-family: 'Space Grotesk'; font-size: 14px;}

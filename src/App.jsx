@@ -24,75 +24,166 @@ const skills = [
 const projects = [
   {
     title: 'Tamil Nadu Power & Distribution System',
+
+    image: '/selvam-portfolio/images/tneb-project.jpg',
+
     description:
-      'Senior Software Developer at Tamil Nadu Electricity Board, Chennai. Contributing to the development and maintenance of large-scale enterprise applications supporting Tamil Nadu’s power distribution infrastructure, including electricity billing, distribution analytics, and high-volume consumer data integration. Designed scalable Java and Spring Boot backend services, developed RESTful APIs using JSON/XML, optimized Oracle SQL operations, improved system reliability, and provided production support.',
+      'Contributing to the development, enhancement, migration, maintenance, and production support of large-scale enterprise applications supporting Tamil Nadu’s electricity distribution infrastructure.',
+
     tech: [
       'Java',
+      'Java 8+',
+      'Java 11',
       'Spring Boot',
-      'REST APIs',
+      'Spring MVC',
+      'React',
+      'RESTful Web Services',
+      'JSON',
+      'XML',
       'Oracle SQL',
-      'JSON / XML',
-      'Production Support'
+      'PL/SQL',
+      'MySQL',
+      'JPA',
+      'Hibernate',
+      'JDBC',
+      'JUnit',
+      'Unit Testing',
+      'Integration Testing',
+      'API Testing',
+      'Manual Testing',
+      'Regression Testing',
+      'Docker',
+      'Kubernetes',
+      'Production Support',
+      'Project Migration',
+      'Data Migration',
+      'Network Troubleshooting',
+      'Incident Resolution',
+      'Log Analysis',
+      'Bug Fixing',
+      'Hotfix Deployment',
+      'SLA Support',
+      'Performance Optimization',
     ],
-    status: 'TNEB · Sep 2024 – Present',
+
+    status:
+      'TNEB · Senior Software Developer · Sep 2024 – Present',
   },
 
   {
     title: 'Office of the Commissioner of Prohibition & Excise',
+
+    image: '/selvam-portfolio/images/nic-project.jpg',
+
     description:
-      'Software Developer at National Informatics Centre (NIC), Government of India, Chennai. Worked on the audit, enhancement, security, and maintenance of government applications. Performed code reviews and development audits, fixed application defects, improved existing modules, conducted testing, supported production deployments, and implemented software optimizations to improve application stability and performance.',
+      'Worked on development, enhancement, audit, migration, testing, security assessment, maintenance, and production deployment of government enterprise applications.',
+
     tech: [
-      'Application Development',
+      'Java',
+      'Spring MVC',
+      'Spring Boot',
+      'Struts 2',
+      'REST API',
+      'React',
+      'JPA',
+      'Hibernate',
+      'PostgreSQL',
+      'MySQL',
+      'Database Migration',
+      'JUnit',
+      'Integration Testing',
+      'Security Testing',
       'Code Review',
       'Security Audit',
-      'Testing',
       'Bug Fixing',
-      'Production Deployment'
+      'Production Deployment',
+      'Production Support',
     ],
-    status: 'NIC · Jan 2023 – Aug 2024',
+
+    status:
+      'NIC · Software Developer · Jan 2023 – Aug 2024',
   },
 
   {
     title: 'e-District – Revenue & Social Security Schemes',
+
+    image: '/selvam-portfolio/images/tnega-project.jpg',
+
     description:
-      'Assistant System Engineer at Tamil Nadu e-Governance Agency (TNeGA), Chennai. Worked on the e-District platform delivering high-volume citizen-centric government services through Common Service Centers. Supported application development and backend processing for revenue and social security schemes, maintained service availability, resolved production issues within SLAs, and coordinated with stakeholders for uninterrupted service delivery.',
+      'Worked on the Tamil Nadu e-District platform supporting electronic delivery of high-volume citizen-centric revenue and social security services.',
+
     tech: [
+      'Core Java',
+      'Struts 2',
+      'Angular',
+      'JavaScript',
+      'JSP',
+      'Bootstrap',
+      'PostgreSQL',
+      'JDBC',
+      'REST API',
+      'JSON',
+      'XML',
       'e-Governance',
       'Backend Processing',
       'Citizen Services',
       'Application Support',
       'SLA Management',
-      'Production Support'
+      'Production Support',
     ],
-    status: 'TNeGA · Nov 2021 – Dec 2022',
+
+    status:
+      'TNeGA · Assistant System Engineer · Nov 2021 – Dec 2022',
   },
 
   {
     title: 'Banking Full Stack Application',
+
+    image: '/selvam-portfolio/images/banking-project.jpg',
+
     description:
-      'A modern banking platform with secure customer workflows, account services, transaction APIs, MySQL persistence, and container-ready deployment.',
+      'Full-stack banking application designed around secure account management, customer workflows, transaction processing and REST API architecture.',
+
     tech: [
       'Java',
       'Spring Boot',
+      'Spring MVC',
+      'Microservices',
+      'REST API',
+      'JPA',
+      'Hibernate',
       'React',
       'MySQL',
       'Docker',
-      'Kubernetes'
+      'Kubernetes',
+      'JUnit',
+      'CI/CD',
     ],
+
     status: 'Personal Project · In Development',
   },
 
   {
     title: 'Order Management System',
+
+    image: '/selvam-portfolio/images/order-project.jpg',
+
     description:
-      'Food-delivery order management application focused on REST APIs, persistence, validation, business rules, responsive React interfaces, and order lifecycle management.',
+      'Full-stack order management application handling product selection, cart processing, customer delivery information and order lifecycle management.',
+
     tech: [
+      'Java',
       'Spring Boot',
-      'JPA',
       'REST API',
+      'JPA',
+      'Hibernate',
       'React',
-      'H2 / SQL'
+      'H2 Database',
+      'SQL',
+      'JUnit',
+      'API Testing',
     ],
+
     status: 'Personal Portfolio Project',
   },
 ];
@@ -159,11 +250,37 @@ function App() {
           </div>
 
           <div className="hero-panel">
-            <div className="status-pill"><span /> Available for software opportunities</div>
-            <div className="code-card">
-              <div className="code-dots"><i /><i /><i /></div>
-              <pre>{`@RestController\n@RequestMapping("/api")\npublic class DeveloperController {\n\n  @GetMapping("/profile")\n  public String profile() {\n    return "Java Full Stack Developer";\n  }\n}`}</pre>
+
+            <div className="profile-photo-wrapper">
+              <img
+                src="/selvam-portfolio/images/profile.jpg"
+                alt="Panneerselvam Arumugam"
+                className="profile-photo"
+              />
             </div>
+
+            <div className="status-pill">
+              <span /> Available for software opportunities
+            </div>
+
+            <div className="code-card">
+              <div className="code-dots">
+                <i />
+                <i />
+                <i />
+              </div>
+
+              <pre>{`@RestController
+@RequestMapping("/api")
+public class DeveloperController {
+
+  @GetMapping("/profile")
+  public String profile() {
+    return "Java Full Stack Developer";
+  }
+}`}</pre>
+            </div>
+
           </div>
         </section>
 
@@ -217,14 +334,34 @@ function App() {
           <div className="project-grid">
             {projects.map((project, index) => (
               <article className="project-card" key={project.title}>
-                <div className="project-number">0{index + 1}</div>
-                <span className="project-status">{project.status}</span>
-                <h3>{project.title}</h3>
-                <p>{project.description}</p>
-                <div className="tag-row">
-                  {project.tech.map((tech) => <span key={tech}>{tech}</span>)}
-                </div>
-              </article>
+
+  <div className="project-image-wrapper">
+    <img
+      src={project.image}
+      alt={project.title}
+      className="project-image"
+    />
+  </div>
+
+  <div className="project-number">
+    0{index + 1}
+  </div>
+
+  <span className="project-status">
+    {project.status}
+  </span>
+
+  <h3>{project.title}</h3>
+
+  <p>{project.description}</p>
+
+  <div className="tag-row">
+    {project.tech.map((tech) => (
+      <span key={tech}>{tech}</span>
+    ))}
+  </div>
+
+</article>
             ))}
           </div>
         </section>
