@@ -23,31 +23,83 @@ const skills = [
 
 const projects = [
   {
+    title: 'Tamil Nadu Power & Distribution System',
+    description:
+      'Senior Software Developer at Tamil Nadu Electricity Board, Chennai. Contributing to the development and maintenance of large-scale enterprise applications supporting Tamil Nadu’s power distribution infrastructure, including electricity billing, distribution analytics, and high-volume consumer data integration. Designed scalable Java and Spring Boot backend services, developed RESTful APIs using JSON/XML, optimized Oracle SQL operations, improved system reliability, and provided production support.',
+    tech: [
+      'Java',
+      'Spring Boot',
+      'REST APIs',
+      'Oracle SQL',
+      'JSON / XML',
+      'Production Support'
+    ],
+    status: 'TNEB · Sep 2024 – Present',
+  },
+
+  {
+    title: 'Office of the Commissioner of Prohibition & Excise',
+    description:
+      'Software Developer at National Informatics Centre (NIC), Government of India, Chennai. Worked on the audit, enhancement, security, and maintenance of government applications. Performed code reviews and development audits, fixed application defects, improved existing modules, conducted testing, supported production deployments, and implemented software optimizations to improve application stability and performance.',
+    tech: [
+      'Application Development',
+      'Code Review',
+      'Security Audit',
+      'Testing',
+      'Bug Fixing',
+      'Production Deployment'
+    ],
+    status: 'NIC · Jan 2023 – Aug 2024',
+  },
+
+  {
+    title: 'e-District – Revenue & Social Security Schemes',
+    description:
+      'Assistant System Engineer at Tamil Nadu e-Governance Agency (TNeGA), Chennai. Worked on the e-District platform delivering high-volume citizen-centric government services through Common Service Centers. Supported application development and backend processing for revenue and social security schemes, maintained service availability, resolved production issues within SLAs, and coordinated with stakeholders for uninterrupted service delivery.',
+    tech: [
+      'e-Governance',
+      'Backend Processing',
+      'Citizen Services',
+      'Application Support',
+      'SLA Management',
+      'Production Support'
+    ],
+    status: 'TNeGA · Nov 2021 – Dec 2022',
+  },
+
+  {
     title: 'Banking Full Stack Application',
     description:
       'A modern banking platform with secure customer workflows, account services, transaction APIs, MySQL persistence, and container-ready deployment.',
-    tech: ['Java', 'Spring Boot', 'React', 'MySQL', 'Docker', 'Kubernetes'],
-    status: 'In Development',
+    tech: [
+      'Java',
+      'Spring Boot',
+      'React',
+      'MySQL',
+      'Docker',
+      'Kubernetes'
+    ],
+    status: 'Personal Project · In Development',
   },
+
   {
     title: 'Order Management System',
     description:
-      'Food-delivery order management feature focused on REST APIs, persistence, validation, business rules, and a responsive React interface.',
-    tech: ['Spring Boot', 'JPA', 'REST API', 'React', 'H2 / SQL'],
-    status: 'Portfolio Project',
-  },
-  {
-    title: 'Enterprise Electricity Portal',
-    description:
-      'JSF and PrimeFaces based enterprise application work involving application workflows, PDF/Excel exports, database integration, and mobile-friendly UI improvements.',
-    tech: ['Java', 'JSF', 'PrimeFaces', 'Oracle SQL', 'XHTML', 'CSS'],
-    status: 'Enterprise Experience',
+      'Food-delivery order management application focused on REST APIs, persistence, validation, business rules, responsive React interfaces, and order lifecycle management.',
+    tech: [
+      'Spring Boot',
+      'JPA',
+      'REST API',
+      'React',
+      'H2 / SQL'
+    ],
+    status: 'Personal Portfolio Project',
   },
 ];
 
 const highlights = [
   { icon: '💻', label: 'Backend', value: 'Java + Spring' },
-  { icon: '🌐', label: 'Frontend', value: 'React + JSF' },
+  { icon: '🌐', label: 'Frontend', value: 'React/Angular + JSF' },
   { icon: '🗄️', label: 'Databases', value: 'MySQL · Oracle · PostgreSQL' },
   { icon: '⚙️', label: 'DevOps', value: 'Docker · Kubernetes · Git' },
 ];
