@@ -415,9 +415,9 @@ public class DeveloperController {
               <span><small>GitHub</small>View my repositories</span>
               <span>→</span>
             </a>
-            <a className="contact-card" href="mailto:your-email@example.com">
+            <a className="contact-card" href="mailto:panneerselvam3260@gmail.com">
               <span>✉</span>
-              <span><small>Email</small>Replace with your email</span>
+              <span><small>Email</small>panneerselvam3260@gmail.com</span>
               <span>→</span>
             </a>
           </div>
